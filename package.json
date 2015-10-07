@@ -1,0 +1,21 @@
+{
+  "name": "mailchimp-lambda",
+  "version": "1.0.0",
+  "description": "A Lambda function for creating MailChimp subscriptions",
+  "main": "index.js",
+  "scripts": {
+    "zip": "zip -r mailchimp-lambda.zip .env index.js node_modules/"
+  },
+  "author": "Taylor Briggs",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "es6-promise": "^3.0.2",
+    "md5": "^2.0.0",
+    "superagent": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TaylorBriggs/mailchimp-lambda.git"
+  }
+}
