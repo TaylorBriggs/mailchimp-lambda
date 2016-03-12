@@ -4,12 +4,16 @@ A Lambda function for creating MailChimp subscriptions.
 
 ##  Authentication
 
-Set your MailChimp API key, list ID, and username in the `.env` file. Copy the
+Set your MailChimp data center, API key, list ID, and username in the `.env` file. Copy the
 sample to get started:
 
 ```
 $ cp .env.sample .env
 ```
+
+Additional details about authenticating with the MailChimp API is available [here](http://developer.mailchimp.com/documentation/mailchimp/guides/get-started-with-mailchimp-api-3/).
+
+## Deployment
 
 There's a handy script included to create your zip archive:
 
